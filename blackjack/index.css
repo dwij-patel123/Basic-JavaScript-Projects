@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    background: goldenrod;
+    color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+     
+    
+}
+
+h1{
+    color:goldenrod
+}

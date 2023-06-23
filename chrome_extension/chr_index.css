@@ -1,0 +1,20 @@
+button{
+    background: green;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 7px;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+input{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a{
+    color: green;
+}

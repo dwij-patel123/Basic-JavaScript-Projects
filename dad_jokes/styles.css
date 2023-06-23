@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.joke-main{
+    transition: all 0.3s linear;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EBF0F9;
+}
+
+header{
+    position: absolute;
+    top: 15%;
+    font-family: 'Roboto Mono', monospace;
+    opacity: 0.9;
+    color: #F9629F;
+    font-size: 1.5rem;
+}
+
+.content{
+    transition:all 0.3s linear ;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3%;
+    background-color: #EFEEF1;
+    border-radius: 5px;
+    height: auto;
+    min-height: 40%;
+}
+
+.content:hover{
+    transition: all 0.3s linear;
+    -webkit-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.5);
+box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.5);
+}
+
+p{
+    margin-bottom: 2%;
+    font-family: 'Roboto Mono', monospace;
+    color: #F9629F;
+    font-size: 1.3rem;
+
+}
+
+button{
+    transition:all 0.3s linear ;
+    margin-top: 3%;
+    letter-spacing: 0.1rem;
+    padding: 8px 10px;
+    font-family: 'Roboto Mono', monospace;
+    border-color: #F9629F;
+    color: #F9629F;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+button:hover{
+    transition: all 0.3s linear;
+    background-color: #F9629F;
+  color: white;
+}
+
+.mode-btn{
+    position: absolute;
+    right: 3%;
+    top: 1px;
+}
+ 
+.dark-mode{
+    transition:all 0.3s linear ;
+    background-color: #2C2D2D;
+}
+
+.dark-mode-alt{
+    transition: all 0.3s linear;
+    background-color: #4E4B51;
+}
+
